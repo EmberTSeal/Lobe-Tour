@@ -6,6 +6,7 @@ body {
 }
 
 .btn-primary {
+    --bs-btn-active-bg: #04ddb2;
     background-color: #04ddb2;
     border: none;
     font-size: 1.4rem;
@@ -13,7 +14,8 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    --bs-btn-active-bg: #04ddb2;
     background-color: #04ddb2;
     transform: scale3d(110%, 110%, 110%);
 }
