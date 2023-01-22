@@ -19,10 +19,10 @@ A clone of the Tour page of Lobe.ai, using CSS Bootstrap5.
 ### Screenshot
 
 #### Wide display
-<img src = /home/ember/repos/Lobe-Tour-Page-Clone/final/wide_Lobe-Tour.png> <br>
+<img src = final/wide_Lobe-Tour.png> <br>
 
 #### Mobile display
-<img src = /home/ember/repos/Lobe-Tour-Page-Clone/final/small_Lobe-Tour.png><br>
+<img src = final/small_Lobe-Tour.png><br>
 
 ### Links
 
@@ -51,6 +51,6 @@ A clone of the Tour page of Lobe.ai, using CSS Bootstrap5.
 
 
 ## Acknowledgements
-Original design belongs to <a href = "https://www.lobe.ai/tour">Lobe.ai Tour page</a> and this is a clone of the above page.
+Original design belongs to <a href = "https://www.lobe.ai/tour">Lobe.ai Tour page</a> and this is a clone of the above page .
 
 
