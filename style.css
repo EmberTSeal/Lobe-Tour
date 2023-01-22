@@ -1,0 +1,76 @@
+*{
+    margin-top: 2px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn-primary{
+    background-color: #04ddb2;
+    border:none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    background-color: #04ddb2;
+    transform: scale(110%);
+}
+
+nav{
+    font-size: 1.3rem;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+svg{
+    margin-top: 0;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+    transform: scale(105%);
+    color: #333;
+}
+
+.download{
+    flex-grow:0;    
+}
+
+main{
+    margin:auto;
+    max-width: 60vw;
+    text-align: center;
+    color: #333;
+}
+
+.tour{
+    color:#04ddb2;
+}
+
+.display-3{
+    font-weight: 800;
+}
+
