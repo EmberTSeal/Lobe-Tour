@@ -116,6 +116,10 @@ li>p.h6{
     font-weight: 400;
 }
 
+.logo>a>img{
+    vertical-align:text-top;
+}
+
 @media (min-width:576px) {
     .socials{
         display: flex;
