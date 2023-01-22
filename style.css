@@ -61,15 +61,20 @@ svg {
     color: #333;
 }
 
-.download {
+.download_nav {
     flex-grow: 0;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
-    max-width: 50vw;
-    text-align: center;
     color: #333;
+}
+
+.headings{
+    max-width: 40vw;
 }
 
 h2{
