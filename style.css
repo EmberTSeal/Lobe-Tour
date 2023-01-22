@@ -9,12 +9,12 @@ body {
     border: none;
     font-size: 1.4rem;
     font-weight: 600;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
     background-color: #04ddb2;
-    transform: scale(110%);
+    transform: scale3d(110%, 110%, 110%);
 }
 
 nav {
@@ -57,7 +57,7 @@ svg {
 }
 
 .nav-link:hover {
-    transform: scale(105%);
+    transform: scale3d(1.05, 1.05, 1.05);
     color: #333;
 }
 
@@ -90,4 +90,10 @@ section>.container {
 
 .container>img {
     border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.container>img:hover{
+    box-shadow: 0 100px 140px -50px rgb(0 0 0 / 25%);
+    transform: scale3d(1.01,1.01,1.01);
 }
