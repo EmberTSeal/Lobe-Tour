@@ -143,3 +143,7 @@ li>p.h6{
         order: 5;
     }
 }
+.svg-wrap{
+    position:relative;
+    display: inline-block;
+}
