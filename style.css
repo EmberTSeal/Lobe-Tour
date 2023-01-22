@@ -127,7 +127,7 @@ li>p.h6{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .company{
         order: 5;
     }
